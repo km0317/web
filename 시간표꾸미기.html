@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet">
+<style>
+ .T1{font-family: "Bagel Fat One", system-ui;
+    font-weight: 400;
+    font-style: normal;}
+
+         body {
+            background-color: aliceblue;
+            margin: 50px;
+        }
+
+        h1 {
+            color: black;
+            margin: 20px;
+        }
+
+        table {
+            width: 80%;
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid grey;
+            padding: 10px;
+            height: 40px;
+            text-align: center;
+        }
+
+        thead th {
+            background-color: black;
+            color: white;
+            font-size: 1em;
+        }
+
+        tbody th {
+            background-color:whitesmoke;
+        }
+
+        .c1 {
+            background-color:greenyellow;
+            font-weight: bold;
+        }
+
+        .c2 {
+            background-color:mediumaquamarine;
+            font-weight: bold;
+        }
+
+        .c3 {
+            background-color:pink;
+            font-weight: bold;
+        }
+        
+        .c4 {
+            background-color:orange;
+            font-weight: bold;
+        }
+
+        .c5 {
+            background-color:skyblue;
+            font-weight: bold;
+        }
+
+        .c6 {
+            background-color:rgb(242, 119, 119);
+            font-weight: bold;
+        }
+
+        td:hover {
+            background-color: yellow;
+        }
+</style>
+<body>
+<h1 class="T1">시간표 꾸미기</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>시간</th>
+                <th>월</th>
+                <th>화</th>
+                <th>수</th>
+                <th>목</th>
+                <th>금</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1</th>
+                <td></td>
+                <td class="c1" rowspan="3">웹프로그래밍</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td></td>
+                <td class="c2" rowspan="3">근로</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td class="c6">채플</td>
+                
+                <td class="c2" rowspan="2">근로</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>4</th>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>5</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>6</th>
+                <td class="c3">영한번역 캡스톤 디자인</td>
+                <td></td>
+                <td></td>
+                <td class="c4" rowspan="3">데이터베이스 설계</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>7</th>
+                <td></td>
+                <td class="c3" rowspan="2">영한번역 캡스톤 디자인</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>8</th>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>9</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>10</th>
+                <td></td>
+                <td></td>
+                <td class="c5" rowspan="3">AI리터러시와 문제해결</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>11</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>12</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
